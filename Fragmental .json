@@ -978,6 +978,14 @@
         "name": "assets\\wakeupView.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "grid (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grid (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1712,7 +1720,7 @@
       "string": "Text",
       "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 30,
       "color": {
         "b": 255,
         "g": 255,
@@ -1736,7 +1744,56 @@
         "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DialogSprite2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "text",
+          "type": "string",
+          "value": "\" \""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Feels like something I should remember.",
+      "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Feels like something I should remember.",
+        "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1774,6 +1831,9 @@
       },
       {
         "objectName": "DialogSprite"
+      },
+      {
+        "objectName": "DialogSprite2"
       }
     ]
   },
@@ -2990,12 +3050,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7315786463753003,
+        "zoomFactor": 0.6622955665506381,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "GoUnderBed",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -3007,8 +3073,8 @@
           "name": "Image",
           "persistentUuid": "28caf75d-dea0-4cc4-be9a-e73a55fb5cb0",
           "width": 1925,
-          "x": -3,
-          "y": 2,
+          "x": 7,
+          "y": 18,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3087,14 +3153,14 @@
           "angle": 179,
           "customSize": true,
           "depth": 2,
-          "height": 89,
+          "height": 81,
           "keepRatio": true,
           "layer": "Click",
           "name": "clickable",
           "persistentUuid": "14e53ca7-4397-46d2-81f5-fb629a97b36e",
-          "width": 236,
-          "x": 789,
-          "y": 718,
+          "width": 216,
+          "x": 799,
+          "y": 726,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3133,32 +3199,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 253,
+          "height": 144,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI",
           "name": "DialogBox",
-          "persistentUuid": "5cbe8501-d0a8-487d-97ba-77da9fa18a4e",
-          "width": 1445,
-          "x": 223,
-          "y": 826,
-          "zOrder": 20,
+          "persistentUuid": "3e8aa23f-e756-427b-b62c-da228d8030f4",
+          "width": 937,
+          "x": 498,
+          "y": 908,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 82,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI",
           "name": "DialogSprite",
-          "persistentUuid": "53c1ffbc-5404-4d33-b4d8-77adf17aeadb",
-          "width": 186,
-          "x": 334,
-          "y": 916,
-          "zOrder": 21,
+          "persistentUuid": "ff3c2139-77d6-4ced-ba3e-01df31fd0932",
+          "width": 0,
+          "x": 516,
+          "y": 953,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3387,11 +3452,32 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"UnderBedScene\""
+                    "DialogueText",
+                    "=",
+                    "\"Hmm, what's under the bed...\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GoUnderBed",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -3414,13 +3500,97 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "Scene"
                   },
                   "parameters": [
                     "",
                     "\"Bed Sidetable View Scene\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GoUnderBed",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"UnderBedScene\"",
+                ""
               ]
             }
           ]
@@ -3633,6 +3803,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -3690,7 +3914,7 @@
         "snap": false,
         "zoomFactor": 0.8635277700823938,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -3750,6 +3974,63 @@
               "value": "fourthPartPhoto"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "0a5deb27-61d0-4eb5-9d91-817ca2f99a65",
+          "width": 392,
+          "x": 795,
+          "y": 736,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "BedTableDrawer"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "8688bd17-b169-4b06-90a6-c2037f2a57a8",
+          "width": 986,
+          "x": 510,
+          "y": 886,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "9dcc4ef1-3042-4ec7-ab9e-8a847d944360",
+          "width": 915,
+          "x": 540,
+          "y": 916,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3974,9 +4255,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Bed View Scene\"",
                 ""
               ]
             }
@@ -4061,6 +4344,26 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"It’s a picture… or what’s left of it. Maybe I can find the rest of it..\""
+                  ]
                 }
               ]
             }
@@ -4068,13 +4371,116 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"BedTableDrawer\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Nothing there...\""
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -4082,6 +4488,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -4203,6 +4614,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -4258,9 +4723,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.45985214267363295,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -4306,25 +4771,334 @@
           ]
         },
         {
-          "angle": 11,
+          "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 270,
+          "height": 282,
           "keepRatio": true,
           "layer": "Click",
           "name": "clickable",
-          "persistentUuid": "2b0573b9-aed9-4a53-a5d0-5ddd690f896b",
-          "width": 396,
-          "x": 1531,
-          "y": 939,
-          "zOrder": 0,
+          "persistentUuid": "7920c662-e60f-4b87-87d8-c4db756a2125",
+          "width": 232,
+          "x": 241,
+          "y": 274,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "name",
               "type": "string",
-              "value": "bed"
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 210,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "680b777f-daae-4c32-9586-7a61b35b44c2",
+          "width": 273,
+          "x": 287,
+          "y": 559,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "768a2a92-7f9e-495d-8562-bbf2798e2bd8",
+          "width": 158,
+          "x": 326,
+          "y": 773,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "b3207a06-6b6d-4bee-a72b-bde307a99746",
+          "width": 106,
+          "x": 474,
+          "y": 433,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 81,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "9d9ffd6e-7b8d-467b-a6f3-c3c9b0c2a643",
+          "width": 87,
+          "x": 479,
+          "y": 346,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "3af06f84-07ed-4dc1-9d59-aa95129f34b4",
+          "width": 73,
+          "x": 479,
+          "y": 274,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "0f2048b1-5ef3-4b10-bc93-c16d99d4ef64",
+          "width": 117,
+          "x": 485,
+          "y": 773,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "bde03a7c-ec88-4e7f-8a96-f63667d5f273",
+          "width": 32,
+          "x": 564,
+          "y": 578,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "9b6da5ed-f64c-466d-b1bf-7739885f1cff",
+          "width": 68,
+          "x": 172,
+          "y": 247,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "a81cc786-59ca-4d85-bb0f-f276af21e760",
+          "width": 29,
+          "x": 208,
+          "y": 367,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "a92646c9-94a3-4ea6-b411-fdcdc0e8827e",
+          "width": 81,
+          "x": 331,
+          "y": 902,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "668fa3b8-29c8-44e0-bd89-a71a7c594b4d",
+          "width": 43,
+          "x": 238,
+          "y": 565,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "a5548e55-ae58-44fa-8b61-daab2401549c",
+          "width": 963,
+          "x": 480,
+          "y": 914,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "3aaadb3c-0369-464a-bfd5-c900c11624bc",
+          "width": 0,
+          "x": 540,
+          "y": 944,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 290,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "855105f3-318a-4b69-8287-29005ec27089",
+          "width": 75,
+          "x": 975,
+          "y": 666,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Towels"
             }
           ]
         }
@@ -4463,11 +5237,12 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Table View Scene\""
+                "\"Table View Scene\"",
+                ""
               ]
             }
           ]
@@ -4499,11 +5274,12 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Bed View Scene\""
+                "\"Bed View Scene\"",
+                ""
               ]
             }
           ]
@@ -4560,7 +5336,35 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
             },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -4572,20 +5376,144 @@
                     "clickable",
                     "name",
                     "=",
-                    "\"bed\""
+                    "\"Door\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"UnderBedScene\""
+                    "DialogueText",
+                    "=",
+                    "\"The door is shut tight, can't open it\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"Towels\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Just some towels\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4677,6 +5605,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -4758,6 +5691,60 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Click",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5400,7 +6387,7 @@
         "snap": false,
         "zoomFactor": 0.3645833333333333,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "Click"
       },
       "objectsGroups": [],
       "variables": [],
@@ -5432,8 +6419,8 @@
           "name": "_3rdPartPhoto",
           "persistentUuid": "9155fefc-bb0f-485b-b8eb-5d4153ec4b68",
           "width": 51,
-          "x": 775,
-          "y": 947,
+          "x": 457,
+          "y": 772,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5448,8 +6435,8 @@
           "name": "clickable",
           "persistentUuid": "59d1c910-f9f6-49a4-a16f-93097d781cdb",
           "width": 0,
-          "x": 791,
-          "y": 957,
+          "x": 473,
+          "y": 779,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5458,6 +6445,85 @@
               "name": "name",
               "type": "string",
               "value": "thirdPartPhoto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 164,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "b6e260d4-dcf3-4001-85cf-388fa187b759",
+          "width": 1321,
+          "x": 306,
+          "y": 886,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "397b428a-f673-4b05-b3c8-43cfd1e81134",
+          "width": 0,
+          "x": 498,
+          "y": 940,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 150,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "a8a463d4-08ab-429d-bee1-f2154a141cd1",
+          "width": 633,
+          "x": 586,
+          "y": 716,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Clothes"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "43400916-4113-4235-ae6b-cbca273d8192",
+          "width": 432,
+          "x": 666,
+          "y": 628,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Clothes"
             }
           ]
         }
@@ -5711,8 +6777,99 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Another one...\""
+                  ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"Clothes\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Clothes. Are they mine?\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -5743,9 +6900,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Opposite Corner View\"",
                 ""
               ]
             }
@@ -5778,6 +6937,53 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         },
@@ -5787,6 +6993,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5908,6 +7119,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -5963,9 +7228,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.45985214267363295,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -6026,6 +7291,39 @@
               "value": "firstPartPhoto"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "3ee47323-75cf-447e-bb96-5c52b3f7704f",
+          "width": 1098,
+          "x": 417,
+          "y": 889,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "790059bd-1643-41c3-a886-208d89440c38",
+          "width": 0,
+          "x": 456,
+          "y": 943,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6302,7 +7600,74 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Another piece of photo...\""
+                  ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -6334,9 +7699,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Corner View\"",
                 ""
               ]
             }
@@ -6348,6 +7715,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -6469,6 +7841,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -6526,7 +7952,7 @@
         "snap": false,
         "zoomFactor": 0.3645833333333333,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -6552,7 +7978,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 583,
+          "height": 429,
           "keepRatio": true,
           "layer": "Click",
           "name": "clickable",
@@ -6570,6 +7996,62 @@
               "value": "table"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 677,
+          "keepRatio": true,
+          "layer": "Click",
+          "name": "clickable",
+          "persistentUuid": "3a31f637-2242-4a5c-b79b-1c3123e5abe4",
+          "width": 400,
+          "x": 1409,
+          "y": 151,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Door"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "d1ca6f59-c499-4c88-bc79-5bf85c069cbc",
+          "width": 1200,
+          "x": 334,
+          "y": 842,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "8579cd89-fb91-4cb4-a89a-7381a2ecbde7",
+          "width": 0,
+          "x": 438,
+          "y": 908,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6814,6 +8296,119 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"Door\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"The door is shut tight, can't open it\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
                 "InventoryPNG",
                 "",
                 "",
@@ -6893,6 +8488,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7068,6 +8668,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7125,7 +8779,7 @@
         "snap": false,
         "zoomFactor": 0.7077142870146659,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -7183,6 +8837,85 @@
               "name": "name",
               "type": "string",
               "value": "secondPartPhoto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 163,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "d8f68416-49eb-4c85-913c-0b5a967faf7c",
+          "width": 1124,
+          "x": 372,
+          "y": 874,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite",
+          "persistentUuid": "8974f99d-f0ef-4bd8-8c52-c6abcd0864e6",
+          "width": 0,
+          "x": 407,
+          "y": 923,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 189,
+          "keepRatio": true,
+          "layer": "click",
+          "name": "clickable",
+          "persistentUuid": "23848ff6-4d84-4cf1-9cc4-324d91bc1565",
+          "width": 175,
+          "x": 1147,
+          "y": 523,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Bucket"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 171,
+          "keepRatio": true,
+          "layer": "click",
+          "name": "clickable",
+          "persistentUuid": "83f6ddd0-da7c-4158-a93a-7c5772e4e246",
+          "width": 63,
+          "x": 731,
+          "y": 296,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "name",
+              "type": "string",
+              "value": "Lamp"
             }
           ]
         }
@@ -7466,7 +9199,206 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Another piece...\""
+                  ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"Bucket\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Empty shiny bucket\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "clickable",
+                    "name",
+                    "=",
+                    "\"Lamp\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "DialogueText",
+                    "=",
+                    "\"Interesting lamp, i can't turn it off...\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -7498,9 +9430,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Table View Scene\"",
                 ""
               ]
             }
@@ -7598,6 +9532,60 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "click",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -7852,9 +9840,11 @@
           "actions": [
             {
               "type": {
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Bed View Scene\"",
                 ""
               ]
             }
@@ -7993,9 +9983,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.45985214267363367,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI2"
       },
       "objectsGroups": [],
       "variables": [
@@ -8025,31 +10015,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1194,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PuzzleBox",
-          "persistentUuid": "2756c3d3-a57e-4e30-98c2-006de56b101c",
-          "width": 1446,
-          "x": 225,
-          "y": -154,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 366,
           "keepRatio": true,
           "layer": "",
           "name": "firstPhoto",
           "persistentUuid": "d48f44a7-c806-427a-ac86-437f29fb8b4c",
           "width": 470,
-          "x": 435,
-          "y": 695,
+          "x": 427,
+          "y": 689,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -8110,14 +10083,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 256,
+          "height": 368,
           "keepRatio": true,
           "layer": "SlotsLayer",
           "name": "firstPhotoSlot",
           "persistentUuid": "60899d8a-52a1-47eb-9692-ead6dbd1e715",
-          "width": 352,
-          "x": 557,
-          "y": 117,
+          "width": 368,
+          "x": 566,
+          "y": 98,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8127,14 +10100,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 263,
+          "height": 367,
           "keepRatio": true,
           "layer": "SlotsLayer",
           "name": "secondPhotoSlot",
           "persistentUuid": "1c96cb07-6e75-4a46-8d45-31aa89700060",
-          "width": 352,
-          "x": 973,
-          "y": 113,
+          "width": 370,
+          "x": 934,
+          "y": 99,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -8144,14 +10117,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 280,
+          "height": 359,
           "keepRatio": true,
           "layer": "SlotsLayer",
           "name": "thirdPhotoSlot",
           "persistentUuid": "b334be69-c44f-4f70-8e00-a5f220fb4186",
-          "width": 363,
-          "x": 551,
-          "y": 417,
+          "width": 366,
+          "x": 567,
+          "y": 466,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -8161,15 +10134,64 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 279,
+          "height": 361,
           "keepRatio": true,
           "layer": "SlotsLayer",
           "name": "fourthPhotoSlot",
           "persistentUuid": "37aca544-3474-4a37-98a5-312df1d23c59",
-          "width": 361,
-          "x": 970,
-          "y": 422,
+          "width": 371,
+          "x": 934,
+          "y": 466,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 207,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogBox",
+          "persistentUuid": "0cbae5c5-50a1-4936-a4e5-93f7de512176",
+          "width": 1290,
+          "x": 292,
+          "y": 639,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "DialogSprite2",
+          "persistentUuid": "4d6624e3-6640-455f-af0b-7e87c4c51aa8",
+          "width": 0,
+          "x": 635,
+          "y": 728,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPuzzleBox",
+          "persistentUuid": "e4db0fc0-e7bb-4a07-807e-6e807ca1d130",
+          "width": 0,
+          "x": 421,
+          "y": -47,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8743,6 +10765,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewPuzzleBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "grid (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 100,
+                            "y": 97
+                          },
+                          {
+                            "x": 920,
+                            "y": 97
+                          },
+                          {
+                            "x": 920,
+                            "y": 909
+                          },
+                          {
+                            "x": 100,
+                            "y": 909
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8750,6 +10832,9 @@
         "children": [
           {
             "objectName": "PuzzleBox"
+          },
+          {
+            "objectName": "NewPuzzleBox"
           },
           {
             "objectName": "firstPhoto"
@@ -8778,6 +10863,66 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "clickable",
+                "\"UI\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "clickable",
+                "\"UI\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -9017,6 +11162,15 @@
           "actions": [
             {
               "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"room2startview(1)\""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -9024,17 +11178,13 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"room2startview(1)\""
-              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -9118,6 +11268,114 @@
           "name": "SlotsLayer",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI2",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22789,7 +25047,7 @@
                 "UiNavigation",
                 "Effect",
                 "\"MyOutline\"",
-                "\"MyOutline\""
+                "no"
               ]
             },
             {
