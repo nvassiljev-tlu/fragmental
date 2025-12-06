@@ -1785,7 +1785,7 @@
       "string": "Feels like something I should remember...",
       "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 35,
       "color": {
         "b": 255,
         "g": 255,
@@ -1809,7 +1809,7 @@
         "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 30,
+        "characterSize": 35,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -3718,39 +3718,6 @@
               "value": "sideTable"
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 144,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "DialogBox",
-          "persistentUuid": "3e8aa23f-e756-427b-b62c-da228d8030f4",
-          "width": 937,
-          "x": 498,
-          "y": 908,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "DialogSprite",
-          "persistentUuid": "ff3c2139-77d6-4ced-ba3e-01df31fd0932",
-          "width": 0,
-          "x": 516,
-          "y": 953,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -3852,7 +3819,7 @@
               },
               "parameters": [
                 "",
-                "\"UILayout\"",
+                "\"UILayout2\"",
                 "",
                 "",
                 ""
@@ -4059,6 +4026,7 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -4436,7 +4404,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8635277700823938,
+        "zoomFactor": 0.580015523990486,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -4526,14 +4494,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 121,
+          "height": 147,
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "8688bd17-b169-4b06-90a6-c2037f2a57a8",
-          "width": 986,
-          "x": 510,
-          "y": 886,
+          "width": 1177,
+          "x": 420,
+          "y": 879,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -4549,8 +4518,8 @@
           "name": "DialogSprite",
           "persistentUuid": "9dcc4ef1-3042-4ec7-ab9e-8a847d944360",
           "width": 915,
-          "x": 540,
-          "y": 916,
+          "x": 465,
+          "y": 904,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -4774,6 +4743,16 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -4785,6 +4764,16 @@
                 "",
                 "\"Bed View Scene\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4964,12 +4953,13 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "DialogueActive",
-                "=",
-                "1"
+                "DialogBox",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -4983,13 +4973,12 @@
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "DialogBox",
-                "",
-                "",
-                ""
+                "DialogueActive",
+                "=",
+                "1"
               ]
             }
           ],
@@ -5578,6 +5567,7 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "a5548e55-ae58-44fa-8b61-daab2401549c",
           "width": 963,
           "x": 480,
@@ -5596,8 +5586,8 @@
           "name": "DialogSprite",
           "persistentUuid": "3aaadb3c-0369-464a-bfd5-c900c11624bc",
           "width": 0,
-          "x": 540,
-          "y": 944,
+          "x": 521,
+          "y": 934,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -5768,6 +5758,16 @@
                 "\"Table View Scene\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -5804,6 +5804,16 @@
                 "",
                 "\"Bed View Scene\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -5907,12 +5917,22 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DialogueActive",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetStringVariable"
                   },
                   "parameters": [
                     "DialogueText",
                     "=",
-                    "\"The door is shut tight, can't open it\""
+                    "\"The door is shut tight, can't open it.\""
                   ]
                 },
                 {
@@ -5978,7 +5998,7 @@
                   "parameters": [
                     "DialogueText",
                     "=",
-                    "\"Just some towels\""
+                    "\"Just some towels.\""
                   ]
                 },
                 {
@@ -6023,6 +6043,17 @@
               },
               "parameters": [
                 "DialogBox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
                 "",
                 "",
                 ""
@@ -6909,7 +6940,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.4303403802207651,
         "windowMask": false,
         "selectedLayer": "Click"
       },
@@ -6980,6 +7011,7 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "b6e260d4-dcf3-4001-85cf-388fa187b759",
           "width": 1321,
           "x": 306,
@@ -6998,8 +7030,8 @@
           "name": "DialogSprite",
           "persistentUuid": "397b428a-f673-4b05-b3c8-43cfd1e81134",
           "width": 0,
-          "x": 498,
-          "y": 940,
+          "x": 344,
+          "y": 911,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7431,6 +7463,16 @@
                 "\"Opposite Corner View\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -7824,6 +7866,7 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "3ee47323-75cf-447e-bb96-5c52b3f7704f",
           "width": 1098,
           "x": 417,
@@ -8548,14 +8591,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 194,
+          "height": 161,
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "d1ca6f59-c499-4c88-bc79-5bf85c069cbc",
-          "width": 1200,
-          "x": 334,
-          "y": 842,
+          "width": 1233,
+          "x": 316,
+          "y": 879,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -8570,8 +8614,8 @@
           "name": "DialogSprite",
           "persistentUuid": "8579cd89-fb91-4cb4-a89a-7381a2ecbde7",
           "width": 0,
-          "x": 438,
-          "y": 908,
+          "x": 363,
+          "y": 895,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -9372,6 +9416,7 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "d8f68416-49eb-4c85-913c-0b5a967faf7c",
           "width": 1124,
           "x": 372,
@@ -9390,8 +9435,8 @@
           "name": "DialogSprite",
           "persistentUuid": "8974f99d-f0ef-4bd8-8c52-c6abcd0864e6",
           "width": 0,
-          "x": 407,
-          "y": 923,
+          "x": 406,
+          "y": 900,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -9960,6 +10005,16 @@
                 "",
                 "\"Table View Scene\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "0"
               ]
             }
           ]
@@ -10675,14 +10730,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 207,
+          "height": 172,
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogBox",
+          "opacity": 179,
           "persistentUuid": "0cbae5c5-50a1-4936-a4e5-93f7de512176",
-          "width": 1290,
-          "x": 292,
-          "y": 839,
+          "width": 1333,
+          "x": 247,
+          "y": 883,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -10697,8 +10753,8 @@
           "name": "DialogSprite2",
           "persistentUuid": "4d6624e3-6640-455f-af0b-7e87c4c51aa8",
           "width": 0,
-          "x": 355,
-          "y": 872,
+          "x": 292,
+          "y": 902,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -25663,15 +25719,6 @@
                 "=",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Visible"
-              },
-              "parameters": [
-                "DialogBox"
-              ]
             }
           ],
           "actions": [
@@ -25717,14 +25764,6 @@
                 "DialogueActive",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "DialogBox"
               ]
             }
           ],
@@ -32409,15 +32448,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 226,
+          "height": 167,
           "keepRatio": true,
           "layer": "",
           "name": "DialogBox",
           "opacity": 179,
           "persistentUuid": "ef09009c-a893-408f-b75c-4df0114eb493",
-          "width": 1314,
-          "x": 311,
-          "y": 814,
+          "width": 1339,
+          "x": 285,
+          "y": 873,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -32427,14 +32466,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 188,
+          "height": 125,
           "keepRatio": true,
           "layer": "",
           "name": "DialogSprite",
           "persistentUuid": "27fde13d-f8f3-4d61-80f9-57d7827a0118",
-          "width": 1263,
-          "x": 332,
-          "y": 833,
+          "width": 1291,
+          "x": 314,
+          "y": 895,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -32453,7 +32492,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4027225833325913,
+        "zoomFactor": 0.5079575118131734,
         "windowMask": false,
         "selectedLayer": "UILayer"
       }
