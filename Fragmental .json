@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu Scene",
   "gdVersion": {
-    "build": 249,
+    "build": 248,
     "major": 5,
-    "minor": 6,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -3708,7 +3708,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8926462115230249,
+        "zoomFactor": 0.6622955665506384,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -3731,8 +3731,8 @@
           "name": "Image",
           "persistentUuid": "28caf75d-dea0-4cc4-be9a-e73a55fb5cb0",
           "width": 1925,
-          "x": 7,
-          "y": 18,
+          "x": -4,
+          "y": 2,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -12390,6 +12390,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NextArrow",
+          "persistentUuid": "eef390c9-7707-44b3-b4dd-fb3498cd69ba",
+          "width": 248,
+          "x": 878,
+          "y": 253,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -12487,18 +12504,6 @@
             },
             {
               "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"UILayout2\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -12515,29 +12520,6 @@
                 "DialogueText",
                 "=",
                 "\"This place.. it feels smaller\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "BackArrow"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "BackArrow"
               ]
             }
           ]
@@ -13523,7 +13505,7 @@
               },
               "parameters": [
                 "",
-                "\"UILayout2\"",
+                "\"UILayout3\"",
                 "",
                 "",
                 ""
@@ -13539,7 +13521,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "NextArrow",
+                "curveBackArrow",
                 "",
                 "",
                 ""
