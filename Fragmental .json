@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu Scene",
   "gdVersion": {
-    "build": 239,
+    "build": 249,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Student Admin\\Downloads\\fragmental-main\\fragmental-main\\html-export",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -53,6 +53,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1118,8 +1119,7 @@
         "preloadInCache": false,
         "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -2048,7 +2048,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "",
+        "text": "text",
         "opacity": 255,
         "fontSize": 30,
         "visible": true,
@@ -2210,13 +2210,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.40272258333259114,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -2703,6 +2706,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3118,6 +3122,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3229,13 +3234,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.45985214267363317,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -3805,6 +3813,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3869,6 +3878,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3922,6 +3932,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -4818,6 +4829,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -4882,6 +4894,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -4935,6 +4948,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -5697,6 +5711,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -5761,6 +5776,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -5814,6 +5830,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -6914,6 +6931,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -6978,6 +6996,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -7031,6 +7050,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -7572,6 +7592,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -7636,6 +7657,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -8407,6 +8429,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -8471,6 +8494,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -8524,6 +8548,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9164,6 +9189,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9228,6 +9254,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9281,6 +9308,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9996,6 +10024,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -10060,6 +10089,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -10113,6 +10143,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -10166,6 +10197,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -10998,6 +11030,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -11062,6 +11095,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -11115,6 +11149,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -11507,6 +11542,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -11614,13 +11650,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4448515998886655,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -12973,6 +13012,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13037,6 +13077,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13090,6 +13131,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13143,6 +13185,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13196,6 +13239,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13635,6 +13679,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -13699,6 +13744,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -14334,6 +14380,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -14398,6 +14445,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -14797,6 +14845,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -14861,6 +14910,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15212,6 +15262,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15574,6 +15625,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15904,6 +15956,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -16579,6 +16632,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -16643,6 +16697,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -17593,6 +17648,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -17657,6 +17713,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -17710,6 +17767,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -18076,6 +18134,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -18517,6 +18576,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -18581,6 +18641,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -18932,6 +18993,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -19324,6 +19386,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -19388,6 +19451,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21586,6 +21650,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21650,6 +21715,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21703,6 +21769,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21756,6 +21823,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21852,13 +21920,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4598521426736333,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -22622,6 +22693,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -22686,6 +22758,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -23301,123 +23374,181 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "clickable",
-                    "name",
-                    "=",
-                    "\"script\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "mapSeen",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "noteItem",
-                    "Animation",
-                    "=",
-                    "\"script\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "DialogueText",
-                    "=",
-                    "\"A draft of the scene... did I leave it here? It feels like a sequence..\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueActive",
-                    "=",
-                    "1"
-                  ]
-                }
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "clickable",
+                "name",
+                "=",
+                "\"script\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "clickable",
-                    "name",
-                    "=",
-                    "\"script\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "mapSeen",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "noteItem",
-                    "Animation",
-                    "=",
-                    "\"script\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "DialogueActive",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "DialogueText",
-                    "=",
-                    "\"This could match the positions on the map.\""
-                  ]
-                }
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "mapSeen",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "noteItem",
+                "Animation",
+                "=",
+                "\"script\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "DialogueText",
+                "=",
+                "\"A draft of the scene... did I leave it here? It feels like a sequence..\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogText",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "clickable",
+                "name",
+                "=",
+                "\"script\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "mapSeen",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "clickable",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "DialogueActive",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "noteItem",
+                "Animation",
+                "=",
+                "\"script\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "DialogueText",
+                "=",
+                "\"This could match the positions on the map.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogText",
+                ""
               ]
             }
           ]
@@ -23552,6 +23683,11 @@
             "includeConfig": 0
           },
           "target": "GlobalMechanics"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -23559,6 +23695,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -23623,6 +23760,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -24045,6 +24183,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -24109,6 +24248,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -24625,6 +24765,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -24689,6 +24830,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -25057,6 +25199,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -26596,6 +26739,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -26660,6 +26804,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -26713,6 +26858,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -27261,6 +27407,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -27325,6 +27472,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -27753,6 +27901,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -27817,6 +27966,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -28301,6 +28451,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -28908,6 +29059,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -28972,6 +29124,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -29405,6 +29558,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -29469,6 +29623,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -29599,6 +29754,14 @@
               "parameters": [
                 "DialogSprite"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DialogText"
+              ]
             }
           ]
         },
@@ -29681,15 +29844,6 @@
                 "value": "Montre"
               },
               "parameters": [
-                "DialogBox",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
                 "DialogSprite",
                 ""
               ]
@@ -29713,6 +29867,24 @@
                 "Text",
                 "=",
                 "GlobalVariableString(DialogueText)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogBox",
+                ""
               ]
             }
           ]
@@ -29746,6 +29918,24 @@
               },
               "parameters": [
                 "DialogSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DialogText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "DialogueText",
+                "=",
+                "\" \""
               ]
             }
           ]
@@ -31431,6 +31621,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -31440,6 +31631,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -31879,6 +32071,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -31888,6 +32081,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -33281,6 +33475,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -33290,6 +33485,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -34344,6 +34540,7 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
+              "choices": [],
               "name": "Scale"
             },
             {
@@ -34353,6 +34550,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -34362,6 +34560,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -35383,6 +35582,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -35392,6 +35592,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -35554,7 +35755,7 @@
           "depth": 1,
           "height": 124,
           "keepRatio": true,
-          "layer": "UILayer",
+          "layer": "",
           "name": "DialogText",
           "persistentUuid": "84de22e6-c95b-4b75-9bd4-2710ffaf6041",
           "width": 1289,
