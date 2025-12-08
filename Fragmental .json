@@ -3243,7 +3243,7 @@
         "snap": false,
         "zoomFactor": 0.45985214267363317,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UILayer"
       },
       "objectsGroups": [
         {
@@ -3313,9 +3313,42 @@
           "name": "btnUp",
           "persistentUuid": "7bb7a390-1040-4fd2-9da7-ac316c0c12f2",
           "width": 148,
-          "x": 793,
-          "y": 694,
+          "x": 849,
+          "y": 659,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 171,
+          "keepRatio": true,
+          "layer": "UILayer",
+          "name": "DialogBox",
+          "persistentUuid": "6ed78a35-b18f-4948-9edc-7c40079079dc",
+          "width": 1179,
+          "x": 345,
+          "y": 856,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UILayer",
+          "name": "opening",
+          "persistentUuid": "5ba67307-8941-4d81-bec6-aa5f1bf7463b",
+          "width": 0,
+          "x": 391,
+          "y": 878,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3477,6 +3510,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "opening",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Where .. am i?",
+          "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Where .. am i?",
+            "font": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3484,6 +3560,9 @@
         "children": [
           {
             "objectName": "Waking_Up_PNG"
+          },
+          {
+            "objectName": "opening"
           }
         ]
       },
@@ -3521,27 +3600,6 @@
                 "yes",
                 "20",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"UILayout2\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "DialogBox",
-                "Opacity"
               ]
             }
           ]
@@ -3725,16 +3783,6 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "DialogueText",
-                "=",
-                "\"Where... am I?\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -3838,7 +3886,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "UILayer",
+          "name": "Click",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -3892,7 +3940,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Click",
+          "name": "UILayer",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -13323,14 +13371,14 @@
           "angle": 271,
           "customSize": true,
           "depth": 1,
-          "height": 196,
+          "height": 164,
           "keepRatio": true,
           "layer": "",
           "name": "NextArrow",
           "persistentUuid": "eef390c9-7707-44b3-b4dd-fb3498cd69ba",
-          "width": 197,
-          "x": 900,
-          "y": 365,
+          "width": 165,
+          "x": 885,
+          "y": 463,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
